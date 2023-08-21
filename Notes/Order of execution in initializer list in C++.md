@@ -1,3 +1,5 @@
+
+> it is the only way to init the const and refrenc member
 ## code 1 :
 ```c++
 #include <iostream>
