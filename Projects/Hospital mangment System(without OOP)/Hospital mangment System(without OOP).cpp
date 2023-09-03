@@ -32,16 +32,17 @@ void addNewPatient()
         cout<<"Sorry , we can't add more patients for this specialization."<<endl;
         return;
     }
-    if(IsUrgent)
+     if(IsUrgent)
     {
         Shift_right(specialization);
         names[specialization][1] = name;
+        status[specialization][1] = IsUrgent;
     }else
     {
         names[specialization][len + 1] = name;
+        status[specialization][len + 1] = IsUrgent;
     }
     cnt[specialization]++;
-    status[specialization][len + 1] = IsUrgent;
 }
 void printSpecial(int special)
 {
