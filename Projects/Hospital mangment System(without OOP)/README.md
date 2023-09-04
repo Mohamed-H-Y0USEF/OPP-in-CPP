@@ -1,5 +1,5 @@
 # Hostpital System
-console application for practis
+console application for practice
 ## Functionality :
 * Adding a patient
     * if urgent case become in the front of queue
