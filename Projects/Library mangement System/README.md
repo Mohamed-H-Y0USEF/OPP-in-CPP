@@ -14,16 +14,15 @@ This document provides an overview and documentation for a simple Library Manage
 
 ### System Class
 - `System::run()`: Main control loop for the Library Management System.
-- `System::menu()`: Displays the menu and handles user choice.
-- `System::addBook()`: Allows users to add a new book to the library.
+- `System::menu()`: Displays the menu and handles Admin choice.
+- `System::addBook()`: Allows admins to add a new book to the library.
 - `System::searchBooks_byPrefix()`: Searches for books by name prefix.
 - `System::print_who_borrowed_book_by_name()`: Prints users who borrowed a book by its name.
-- `System::GetIdByName(string &str)`: Retrieves the book ID by its name.
 - `System::sortByName(Book &b1, Book &b2)`: Comparator for sorting books by name.
 - `System::sortById(Book &b1, Book &b2)`: Comparator for sorting books by ID.
 - `System::print_library_by_id()`: Prints the library's book list sorted by ID.
 - `System::print_library_by_name()`: Prints the library's book list sorted by name.
-- `System::add_user()`: Allows users to add a new library user.
+- `System::add_user()`: Allows Admins to add a new library user.
 - `System::Borrow_book()`: Handles the process of borrowing a book.
 - `System::Return_book()`: Handles the process of returning a book.
 - `System::print_Users()`: Prints the list of library users.
