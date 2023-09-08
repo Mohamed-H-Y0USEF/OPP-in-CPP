@@ -5,7 +5,7 @@ This document provides an overview and documentation for a simple Library Manage
 
 ## Project Structure
 - **library_System.h**: Header file containing class declarations and function prototypes.
-- **library_System.cpp**: Implementation of the System class and its member functions.
+- **System.cpp**: Implementation of the System class and its member functions.
 - **User.cpp**: Implementation of the User class and its member functions.
 - **Book.cpp**: Implementation of the Book class and its member functions.
 - **main.cpp**: The main entry point for the program.
