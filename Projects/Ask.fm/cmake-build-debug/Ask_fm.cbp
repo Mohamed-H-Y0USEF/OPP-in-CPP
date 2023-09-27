@@ -80,7 +80,16 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/Mohamed Hussein/OOP in Cpp/Projects/Ask.fm/askFmhed.h">
+			<Option target="Ask_fm"/>
+		</Unit>
+		<Unit filename="C:/Users/Mohamed Hussein/OOP in Cpp/Projects/Ask.fm/askFmsrc.cpp">
+			<Option target="Ask_fm"/>
+		</Unit>
 		<Unit filename="C:/Users/Mohamed Hussein/OOP in Cpp/Projects/Ask.fm/main.cpp">
+			<Option target="Ask_fm"/>
+		</Unit>
+		<Unit filename="C:/Users/Mohamed Hussein/OOP in Cpp/Projects/Ask.fm/user.cpp">
 			<Option target="Ask_fm"/>
 		</Unit>
 		<Unit filename="C:/Users/Mohamed Hussein/OOP in Cpp/Projects/Ask.fm/CMakeLists.txt">

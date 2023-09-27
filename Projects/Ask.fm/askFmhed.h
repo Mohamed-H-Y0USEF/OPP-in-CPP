@@ -1,8 +1,36 @@
-//
-// Created by Mohamed Hussein on 25/09/2023.
-//
+#include <bits/stdc++.h>
+using namespace std;
 
-#ifndef ASK_FM_ASKFMHED_H
-#define ASK_FM_ASKFMHED_H
+struct user{
+    string name , passWord , userName, email;
+    int id;
+    bool anonymousQuest;
+    void read();
 
-#endif //ASK_FM_ASKFMHED_H
+};
+
+struct AskFmSystem{
+    string CurUserName;
+    map<string,user>UsersList;
+    int CurUserID;
+    bool isLogIN = false;
+    void run();
+    int menu();
+    int generateID();
+    void Load();
+    void printQuestToMe();
+    void printQuestFromMe();
+    void answerQuest();
+    void DelQuest();
+    void AskQuestTo();
+    void listUsers();
+    void feedQuest();
+    void LogOut();
+    void Login();
+    void SignUP();
+};
+
+
+
+
+

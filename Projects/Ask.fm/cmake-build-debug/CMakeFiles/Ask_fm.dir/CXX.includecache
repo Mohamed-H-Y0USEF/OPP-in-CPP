@@ -6,7 +6,19 @@
 
 #IncludeRegexTransform: 
 
+C:/Users/Mohamed Hussein/OOP in Cpp/Projects/Ask.fm/askFmhed.h
+bits/stdc++.h
+-
+
+C:/Users/Mohamed Hussein/OOP in Cpp/Projects/Ask.fm/askFmsrc.cpp
+askFmhed.h
+C:/Users/Mohamed Hussein/OOP in Cpp/Projects/Ask.fm/askFmhed.h
+fstream
+-
+
 C:/Users/Mohamed Hussein/OOP in Cpp/Projects/Ask.fm/main.cpp
 iostream
 -
+askFmhed.h
+C:/Users/Mohamed Hussein/OOP in Cpp/Projects/Ask.fm/askFmhed.h
 

@@ -3,8 +3,8 @@ using namespace std;
 
 int main() {
 
-    LibrarySystem LibrarySystem;
-    LibrarySystem.run();
+    LibrarySystem librarySystem;
+    librarySystem.run();
 
     return 0;
 }

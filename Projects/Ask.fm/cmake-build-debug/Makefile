@@ -142,6 +142,33 @@ Ask_fm/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ask_fm.dir\build.make CMakeFiles/Ask_fm.dir/build
 .PHONY : Ask_fm/fast
 
+askFmsrc.obj: askFmsrc.cpp.obj
+
+.PHONY : askFmsrc.obj
+
+# target to build an object file
+askFmsrc.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ask_fm.dir\build.make CMakeFiles/Ask_fm.dir/askFmsrc.cpp.obj
+.PHONY : askFmsrc.cpp.obj
+
+askFmsrc.i: askFmsrc.cpp.i
+
+.PHONY : askFmsrc.i
+
+# target to preprocess a source file
+askFmsrc.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ask_fm.dir\build.make CMakeFiles/Ask_fm.dir/askFmsrc.cpp.i
+.PHONY : askFmsrc.cpp.i
+
+askFmsrc.s: askFmsrc.cpp.s
+
+.PHONY : askFmsrc.s
+
+# target to generate assembly for a file
+askFmsrc.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ask_fm.dir\build.make CMakeFiles/Ask_fm.dir/askFmsrc.cpp.s
+.PHONY : askFmsrc.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -169,6 +196,33 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ask_fm.dir\build.make CMakeFiles/Ask_fm.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+user.obj: user.cpp.obj
+
+.PHONY : user.obj
+
+# target to build an object file
+user.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ask_fm.dir\build.make CMakeFiles/Ask_fm.dir/user.cpp.obj
+.PHONY : user.cpp.obj
+
+user.i: user.cpp.i
+
+.PHONY : user.i
+
+# target to preprocess a source file
+user.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ask_fm.dir\build.make CMakeFiles/Ask_fm.dir/user.cpp.i
+.PHONY : user.cpp.i
+
+user.s: user.cpp.s
+
+.PHONY : user.s
+
+# target to generate assembly for a file
+user.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ask_fm.dir\build.make CMakeFiles/Ask_fm.dir/user.cpp.s
+.PHONY : user.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -178,9 +232,15 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Ask_fm
+	@echo ... askFmsrc.obj
+	@echo ... askFmsrc.i
+	@echo ... askFmsrc.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... user.obj
+	@echo ... user.i
+	@echo ... user.s
 .PHONY : help
 
 
