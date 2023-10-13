@@ -1,3 +1,0 @@
-C:/Users/Mohamed Hussein/OOP in Cpp/Projects/Ask.fm/cmake-build-debug/CMakeFiles/Ask_fm.dir
-C:/Users/Mohamed Hussein/OOP in Cpp/Projects/Ask.fm/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/Mohamed Hussein/OOP in Cpp/Projects/Ask.fm/cmake-build-debug/CMakeFiles/rebuild_cache.dir
